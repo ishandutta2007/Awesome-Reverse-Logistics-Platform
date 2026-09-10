@@ -57,258 +57,35 @@ These systems manage the movement of products from customers, retailers, distrib
 
 ## SaaS/Hosted Platforms
 
-### [ReverseLogix](https://www.reverselogix.com/)
+The following commercial SaaS and hosted reverse-logistics platforms provide returns management systems (RMS), customer return portals, box-free drop-off networks, warehouse inspection/grading, repair management, and recommerce/liquidation workflows.
 
-Enterprise SaaS **Returns Management System (RMS)** covering the complete returns lifecycle for retailers, eCommerce brands, manufacturers and 3PLs.
-
-Capabilities include:
-
-* RMA initiation
-* Return policy and rules engine
-* Branded returns portal
-* Return validation
-* Automated approvals
-* Returns processing
-* Inspection and grading
-* Disposition
-* Return-to-vendor
-* Repairs
-* Warranty management
-* Recommerce
-* Customer notifications
-* Analytics
-* Multi-location operations
-* ERP/OMS/WMS integrations
-* API and webhooks
-* Returns fraud controls
-* AI-assisted returns management
-
-ReverseLogix positions its platform as an end-to-end SaaS RMS spanning customer returns, warehouse processing, repairs, warranty, recommerce and reverse-supply-chain workflows.
-
----
-
-### [Optoro](https://www.optoro.com/)
-
-Enterprise returns-management and reverse-logistics platform focused on optimizing the complete lifecycle of returned merchandise.
-
-Capabilities include:
-
-* Returns portal
-* Exchanges
-* Store credit
-* Return methods
-* Box-free / label-free returns
-* Returns processing
-* Receiving
-* Test and grading
-* Automated disposition
-* Restocking
-* Resale
-* Recommerce
-* Inventory recovery
-* Analytics
-* 3PL support
-* AI/ML-based routing
-
-Optoro's RMS connects customer-facing returns with back-end receiving, restock, resale and recommerce processes.
-
----
-
-### [Happy Returns](https://happyreturns.com/)
-
-Returns infrastructure focused on convenient **box-free, label-free** returns through a physical drop-off network.
-
-Key capabilities:
-
-* Box-free returns
-* Label-free returns
-* QR-code returns
-* Return Bars
-* Retail drop-off
-* Consolidated shipping
-* Returns logistics
-* Merchant integrations
-* Customer experience optimization
-
-Happy Returns is particularly useful for brands that want to combine digital return initiation with physical drop-off infrastructure.
-
----
-
-### [Loop Returns](https://www.loopreturns.com/)
-
-Returns and exchanges platform for eCommerce brands.
-
-Capabilities include:
-
-* Branded returns portal
-* Return policy management
-* Exchanges
-* Store credit
-* Refunds
-* Return shipping
-* Carrier routing
-* Fraud detection
-* Return analytics
-* Automated workflows
-* Shopify integration
-* Multi-channel returns
-* AI / returns intelligence
-
-Loop's current platform combines returns, exchanges, fraud controls, shipping and intelligence in a unified system.
-
----
-
-### [ReturnLogic](https://www.returnlogic.com/)
-
-Returns-management platform focused on eCommerce brands.
-
-Capabilities include:
-
-* Self-service returns portal
-* RMA automation
-* Return policies
-* Automated approvals
-* Return tracking
-* Warranty returns
-* Exchange management
-* Returns analytics
-* SKU-level return insights
-* Customer scoring
-* Warehouse visibility
-* Return optimization
-
-ReturnLogic explicitly positions itself as returns-management software rather than a WMS, ERP or 3PL.
-
----
-
-### [ReturnGO](https://returngo.ai/)
-
-Post-purchase and returns-management platform.
-
-Capabilities include:
-
-* Returns
-* Exchanges
-* Return coverage
-* Shipping
-* Return labels
-* Tracking
-* Notifications
-* Automated workflows
-* Return policies
-* Sustainability
-* Analytics
-* API
-* Shopify and eCommerce integrations
-
-ReturnGO focuses heavily on automating the post-purchase and returns experience.
-
----
-
-### [Rich Returns](https://www.richreturns.io/)
-
-Returns and exchanges platform designed particularly for Shopify merchants.
-
-Capabilities include:
-
-* Self-service return portal
-* Automated returns
-* Auto-refunds
-* Automatic exchanges
-* Return policies
-* Advanced rules
-* Prepaid return labels
-* Shop App integration
-* Multi-channel returns
-* Carrier integrations
-* REST API
-* Returns analytics
-
-Rich Returns is especially suitable for Shopify-centric brands.
-
----
-
-### [Inmar Intelligence](https://www.inmar.com/)
-
-Enterprise commerce and reverse-logistics services provider with capabilities spanning returns, transportation, processing, liquidation, recommerce and supply-chain recovery.
-
-Relevant areas include:
-
-* Reverse logistics
-* Returns processing
-* Product recovery
-* Liquidation
-* Recommerce
-* Transportation
-* Supply-chain services
-* Retail returns
-* Consumer returns
-* Data analytics
-
----
-
-### [GoTRG](https://www.gotrg.com/)
-
-Reverse-logistics and recommerce provider focused on recovering value from returned, excess and secondary-market inventory.
-
-Capabilities include:
-
-* Returns processing
-* Reverse logistics
-* Product grading
-* Refurbishment
-* Recommerce
-* Liquidation
-* Marketplace resale
-* Inventory recovery
-* Warehouse operations
-* Data analytics
-
-GoTRG is particularly relevant where reverse logistics extends beyond returns processing into **asset recovery and secondary-market sales**.
-
----
-
-### [Flexe](https://www.flexe.com/)
-
-On-demand warehousing and logistics platform with warehouse and fulfillment capabilities that include inbound returns processing.
-
-Returns workflows can include:
-
-* Creating returns
-* Receiving returned products
-* QA/inspection
-* Refurbishment
-* Restocking
-* Damaged-item handling
-* Inventory movement
-* Warehouse processing
-
-Flexe is broader than a dedicated returns-management platform.
-
----
-
-### Other Important Commercial Platforms
-
-* **[Happy Returns](https://happyreturns.com/)** — Box-free, label-free returns and drop-off infrastructure.
-* **[Narvar](https://corp.narvar.com/)** — Post-purchase customer experience, tracking and returns.
-* **[AfterShip Returns](https://www.aftership.com/returns)** — Returns and post-purchase workflows.
-* **[Returnly](https://www.returnly.com/)** — Returns and instant credit experiences.
-* **[Return Rabbit](https://returnrabbit.com/)** — Returns-management software.
-* **[ReturnMagic](https://returnmagic.com/)** — eCommerce returns automation.
-* **[ZigZag Global](https://www.zigzag.global/)** — Global returns-management and reverse-logistics platform.
-* **[ReBOUND Returns](https://www.reboundreturns.com/)** — Global returns management.
-* **[Sorted Returns](https://sorted.com/)** — Delivery and returns technology.
-* **[Loop Returns](https://www.loopreturns.com/)** — Returns and exchanges.
-* **[AfterShip](https://www.aftership.com/)** — Tracking, returns and post-purchase management.
-* **[Sendcloud](https://www.sendcloud.com/)** — Shipping and returns automation.
-* **[Metapack](https://www.metapack.com/)** — Delivery and returns management.
-* **[Returnless](https://www.returnless.com/)** — Returns optimization and refund alternatives.
-* **[Revers.io](https://www.revers.io/)** — Returns-management platform.
-* **[Return Rabbit](https://returnrabbit.com/)** — Returns automation.
-* **[Loop Returns](https://www.loopreturns.com/)** — eCommerce returns and exchanges.
-* **[ParcelLab](https://parcellab.com/)** — Post-purchase experience and returns.
-* **[Klarna Returns](https://www.klarna.com/)** — Consumer payment and returns ecosystem.
-* **[Shopify Returns](https://www.shopify.com/)** — Native commerce returns capabilities.
+| Platform | Focus & Key Capabilities | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[ReverseLogix](https://www.reverselogix.com/)** | Enterprise Returns Management System (RMS) covering end-to-end customer return portals, RMA orchestration, warehouse inspection, grading, repairs, warranty management, and disposition rules engine. | **~$1,500/month** (~$18,000/year base enterprise platform subscription; includes core RMA portal and warehouse returns processing modules) | **30-day enterprise evaluation pilot**: includes dedicated RMS staging sandbox, up to 2 customized return policy workflows, and testing for up to 250 simulated returns with ERP/WMS integration validation. |
+| **[Optoro](https://www.optoro.com/)** | Enterprise returns-management and reverse-logistics platform optimizing returns receiving, automated AI grading, smart routing, restock, and secondary-market recommerce resale. | **~$2,500/month** (~$30,000/year base enterprise platform subscription for returns processing and routing engine; plus 10%–15% recommerce recovery fee on resold secondary inventory) | **30-day guided Proof of Concept (POC) pilot**: includes sandbox access to Optoro returns routing engine, historical return SKU data audit, and simulation of up to 500 return dispositions for qualified enterprise retailers. |
+| **[Happy Returns](https://happyreturns.com/)** *(UPS)* | In-person, box-free, label-free returns network across 10,000+ Return Bar locations, consolidated reverse logistics, and merchant return management portal. | **$350/month** (Base SaaS platform fee for merchant portal and label generation, plus ~$5.50 per Return Bar drop-off transaction) | **30-day pilot trial**: includes access to merchant returns portal, QR-code return initiation, and up to 50 trial Return Bar drop-off transactions during onboarding. |
+| **[Loop Returns](https://www.loopreturns.com/)** | Leading Shopify-centric returns and exchanges platform featuring "Shop Now" instant exchanges, bonus credit incentives, carrier routing, and automated fraud prevention. | **$0/month** (Checkout+ free-to-use shopper-funded plan; Essential plan starts at **$155/month** for up to 1,000 returns/year) | **Free Forever Plan (Checkout+)**: unlimited returns under shopper-funded model, branded returns portal, domestic return labels, and Return Bar network drop-offs; paid plans include **14-day free trial** with full feature access for up to 50 return authorizations. |
+| **[ReturnLogic](https://www.returnlogic.com/)** | Returns and RMA management software for eCommerce brands, automating customer return portals, warranty tracking, warehouse inspection, and exchange workflows. | **$299/month** (Base subscription tier on 12-month agreement; or per-return pricing starting at $3.90/return tapering to $0.25/return based on volume) | **14-day guided sandbox trial**: full access to RMA rules engine, self-service return portal customization, and up to 25 test return and exchange workflows with mock customer accounts upon sales consultation. |
+| **[ReturnGO](https://returngo.ai/)** | AI-driven post-purchase and returns management platform delivering automated product exchanges, store credit incentives, return-to-store, and sustainability tracking. | **$147/month** (Premium tier; Pro tier starts at $297/month for advanced automation and API/webhook access) | **14-day free trial**: full access to chosen plan features (Premium or Pro), includes self-service portal setup and up to 50 processed returns during the trial period without upfront annual commitment. |
+| **[Rich Returns](https://www.richreturns.io/)** | Self-service returns and exchanges platform engineered for Shopify merchants, providing automated prepaid return labels, customer notifications, and custom return policies. | **$19/month** (Standard plan; includes 10 returns/month, $1.00/additional return; Pro tier at $39/month for 50 returns/month) | **14-day free trial**: full access to branded return portal, automated label generation, and custom return reasons, capped at 10 returns during the trial period. |
+| **[Inmar Intelligence](https://www.inmar.com/)** | Enterprise reverse logistics, returns processing, liquidation, recommerce, and supply chain asset recovery services with high-volume nationwide distribution centers. | **~$2,500/month** (~$30,000/year base enterprise platform subscription for returns management software; or $1.25–$2.50 per unit processed in Inmar facilities) | **30-day proof of value (POV) pilot**: includes historical reverse-logistics audit, simulation of disposition routing algorithms, and testing of up to 200 return units through Inmar’s returns portal. |
+| **[GoTRG (ReturnPro)](https://www.gotrg.com/)** | End-to-end reverse-logistics and recommerce platform covering omnichannel returns processing, AI grading, refurbishing, and liquidation to secondary marketplaces. | **$0/month** (Base platform connector for marketplace sellers; enterprise managed reverse logistics starts at **~$1,500/month** plus 10%–20% liquidation recovery fee) | **Free Forever Plan (Connector Tier)**: up to 1,000 returns/month for connected Shopify and Walmart seller accounts, 1 user seat; enterprise tiers include **30-day sandbox pilot** with up to 100 test item gradings. |
+| **[Flexe](https://www.flexe.com/)** | On-demand logistics and warehousing platform offering flexible reverse logistics, warehouse returns intake, inspection, refurbishment, and inventory restock across nationwide 3PL facilities. | **~$2,000/month** (~$24,000/year base network software and capacity reservation commitment; plus per-pallet monthly storage and $2.00–$3.50/unit inbound returns handling) | **30-day supply chain assessment pilot**: includes reverse-logistics network modeling, warehouse integration feasibility sandbox, and test receiving workflow configuration for up to 50 sample return shipments. |
+| **[Narvar](https://corp.narvar.com/)** | Enterprise post-purchase customer experience, delivery tracking, and returns management platform supporting boxless drop-offs at 200,000+ retail locations. | **~$2,500/month** (~$30,000/year base enterprise contract; scaling based on order and return volume) | **30-day enterprise sandbox evaluation**: full access to branded tracking and returns portal configuration, carrier API webhooks, and up to 500 test return label generations for qualified mid-market and enterprise retailers. |
+| **[AfterShip Returns](https://www.aftership.com/returns)** | Global returns and exchanges automation platform featuring self-service customer portals, instant exchanges, automated return labels, and multi-carrier tracking. | **$19/month** (Essentials plan; includes 20 returns/month, $0.50 per additional return; Pro tier at $99/month for 100 returns/month) | **Free Forever Plan**: includes up to 3 returns/month with branded returns portal and basic email notifications; **7-day free trial** of Essentials and Pro plans with up to 50 trial return labels and advanced exchange features. |
+| **[Return Rabbit](https://returnrabbit.com/)** *(Shipfusion)* | Automated returns and exchanges software designed for fast-growing eCommerce brands with smart incentives, store credit boosts, and 3PL WMS integrations. | **$250/month** (Starter tier; includes up to 200 returns/month; Pro tier starts at $500/month for up to 500 returns/month) | **14-day free trial**: access to full returns portal setup, automated exchange workflows, and up to 50 test returns during the evaluation period. |
+| **[ZigZag Global](https://www.zigzag.global/)** | Global returns-management platform connecting retailers to 1,500+ carrier services, 130+ countries, and 450,000+ drop-off points with customs clearance and local reverse consolidation. | **£20/month** (~$26/month Silver tier; includes 20 returns/month; Gold tier is £50/month (~$65/month) for 100 returns/month) | **Free Forever Plan**: includes up to 5 returns/month with self-service return portal and QR code generation; **14-day free trial** on Silver and Gold tiers with up to 50 international return label creations. |
+| **[ReBOUND Returns](https://www.reboundreturns.com/)** *(Reconomy)* | Omnichannel global reverse logistics and returns management system managing physical returns, cross-border consolidation, duty drawbacks, and environmental reporting. | **£250/month** (~$325/month base software platform fee; plus ~£1.50–£3.50 per return transaction depending on carrier routing and destination country) | **30-day pilot program**: includes live portal setup for one market, carrier label testing, and up to 100 live customer returns processed through local return drop-offs. |
+| **[Sorted Returns](https://sorted.com/)** | Delivery and returns management SaaS providing branded customer returns initiation, carrier rate selection, tracking notifications, and warehouse returns receipt visibility. | **£500/month** (~$650/month base platform fee for unified tracking and returns management; annual contract) | **14-day interactive sandbox trial**: access to Sorted returns orchestration dashboard, carrier API simulator, and up to 100 test return label generations upon sales consultation. |
+| **[Sendcloud](https://www.sendcloud.com/)** | European shipping and returns automation platform connecting 100+ carriers, offering customer-facing branded return portals, paid returns via Mollie, and automated customs documentation. | **€0/month** (Free plan; Lite tier starts at **€35/month** (~$38/month), Growth tier at €109/month (~$119/month)) | **Free Forever Plan**: includes up to 50 shipments/month, basic return portal, Sendcloud carrier rates, and email tracking; **14-day free trial** on Lite and Growth tiers with custom carrier contracts and automated return rule builder. |
+| **[Metapack](https://www.metapack.com/)** | Enterprise delivery and returns management platform serving international omnichannel retailers with access to 400+ carriers and 350,000+ PUDO / drop-off points globally. | **~$1,500/month** (~$18,000/year base enterprise platform subscription; scaling by parcel and return consignment volume) | **30-day guided enterprise Proof of Concept (POC)**: includes carrier routing configuration, branded returns portal prototype, and test label generation for up to 300 test shipments. |
+| **[Returnless](https://www.returnless.com/)** | Returns management and return prevention platform providing automated return forms, photo upload inspection, instant refunds, voucher incentives, and carrier label generation. | **€105/month** (~$115/month base Grow plan; includes up to 100 returns/month; Scale plan at €260/month for 350 returns) | **14-day free trial**: full test mode access to all platform features, return forms, and carrier label integrations (test mode only; live returns require subscription activation, no credit card required). |
+| **[Revers.io](https://www.revers.io/)** | Enterprise reverse-logistics and after-sales platform managing customer returns, technician repairs, supplier warranties, and retailer RMA workflows across European retail. | **€1,000/month** (~$1,100/month; ~$12,000/year base enterprise software subscription) | **14-day staging sandbox trial**: access to RMA portal builder, repair tracking dashboard, and test return authorization workflow for up to 50 simulated customer returns upon sales qualification. |
+| **[ParcelLab](https://parcellab.com/)** | Post-purchase experience and returns management engine offering branded tracking, digital returns initiation, and proactive customer communication for global brands. | **~$2,400/month** (~$28,800/year base enterprise contract covering tracking and returns Retain modules) | **30-day enterprise sandbox evaluation**: full access to branded returns portal setup, customer notification triggers, and up to 500 test transaction simulations for qualified enterprise accounts. |
+| **[Shopify Returns](https://www.shopify.com/)** | Built-in native returns and exchange management for Shopify merchants, supporting customer self-service returns, label generation via Shopify Shipping, and exchange orders. | **$39/month** (Basic Shopify plan; $29/mo billed annually; includes native returns portal, automated return rules, and discounted carrier labels) | **3-day free trial** with full store and returns portal capabilities, followed by **$1/month promotional period for the first 3 months** (unlimited native return creations during trial; no free forever plan). |
+| **[Klarna Returns](https://www.klarna.com/)** | Integrated consumer payment and returns ecosystem allowing shoppers to report returns directly in the Klarna app, pausing invoice payments and notifying merchants automatically. | **$0/month** base platform fee (integrated into Klarna Merchant Account; transaction processing fee starts at **2.49% + $0.30 per transaction**) | **Free Forever Merchant Account**: zero monthly platform fee, includes full dispute management and in-app customer return status reporting; **unlimited test sandbox environment** for API testing and order lifecycle simulation. |
+| **[Returnly](https://www.returnly.com/)** *(Affirm / Loop)* | Pioneer in instant returns credit and exchanges, now merged into Loop Returns to provide shopper-backed instant return authorizations and credit disbursements. | **$155/month** (Essential tier via Loop Returns migration; Affirm merchant partnership rates apply) | **Free Forever Plan (via Loop Checkout+)**: free core returns software under shopper-funded model; **14-day free trial** for Essential/Advanced migration tiers (capped at 50 return credits). |
+| **[ReturnMagic](https://returnmagic.com/)** *(Shopify)* | Automated eCommerce returns platform with intelligent rules engine and auto-refunds, now integrated natively into Shopify core returns capabilities. | **$39/month** (Basic Shopify tier with native returns automation; $29/month billed annually) | **3-day free trial** with full Shopify returns engine access and test return label printing; promotional $1/month for the first 3 months (no free forever plan). |
 
 ---
 
