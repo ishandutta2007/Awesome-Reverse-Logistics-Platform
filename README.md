@@ -1,61 +1,64 @@
-# Awesome-Reverse-Logistics-Platform
+<div align="center">
 
-## Top Reverse Logistics Platform
+<img src="assets/banner.svg" alt="Awesome Reverse Logistics Platform Banner" width="100%">
 
-**Curated List of SaaS / Hosted Platforms & Open-Source GitHub Projects**
-*Focused on Returns Management, Reverse Logistics, RMA, Returns Processing, Recommerce & Recovery*
-**Last updated: September 2026**
+# 🔄 Awesome Reverse Logistics & Returns Management Platform
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Reverse Logistics and Returns Management**.
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Reverse-Logistics-Platform?style=flat-square&color=gold)](https://github.com/ishandutta2007/Awesome-Reverse-Logistics-Platform/stargazers)
+[![Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Reverse-Logistics-Platform?style=flat-square&color=blue)](https://github.com/ishandutta2007/Awesome-Reverse-Logistics-Platform/network/members)
+[![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Reverse-Logistics-Platform?style=flat-square&color=green)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Reverse-Logistics-Platform?style=flat-square&color=orange)](https://github.com/ishandutta2007/Awesome-Reverse-Logistics-Platform/commits/main)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-These systems manage the movement of products from customers, retailers, distributors, service centers, or other downstream locations back into the supply chain. Modern platforms cover the complete return lifecycle — from **return initiation and RMA authorization** through **shipping, receiving, inspection, grading, repair, refurbishment, restocking, resale, recycling, disposition, refunds and analytics**.
-
-**Examples** include ReverseLogix, Optoro, Happy Returns, Loop Returns, ReturnLogic, ReturnGO, Rich Returns, Inmar Intelligence, GoTRG, and Flexe Returns.
-
-**Open-source emphasis:** This section is heavily expanded with open-source ERP, WMS, RMA, e-commerce, inventory, repair, workflow, shipping, analytics, and warehouse projects that can be combined to build self-hosted reverse-logistics platforms.
-
-> **Important:** There is currently no single mature open-source project that is a complete drop-in replacement for enterprise platforms such as ReverseLogix or Optoro. The strongest open-source approach is a **composable reverse-logistics stack** built from RMA + ERP/OMS + WMS + inventory + shipping + workflow + analytics components.
-
----
-
-## Table of Contents
-
-* [SaaS/Hosted Platforms](#saashosted-platforms)
-* [Open-Source](#open-source)
-* [Open-Source RMA & Returns Projects](#open-source-rma--returns-projects)
-* [Open-Source ERP/OMS Platforms](#open-source-erproms-platforms)
-* [Open-Source WMS & Warehouse Platforms](#open-source-wms--warehouse-platforms)
-* [Open-Source E-Commerce Platforms with Returns](#open-source-e-commerce-platforms-with-returns)
-* [Open-Source Repair & Refurbishment](#open-source-repair--refurbishment)
-* [Open-Source Logistics & Shipping](#open-source-logistics--shipping)
-* [Open-Source Workflow & Automation](#open-source-workflow--automation)
-* [Open-Source Analytics & Reverse Logistics Intelligence](#open-source-analytics--reverse-logistics-intelligence)
-* [Open-Source AI & Computer Vision](#open-source-ai--computer-vision)
-* [Open-Source Data & Infrastructure](#open-source-data--infrastructure)
-* [Commercial → Open-Source Mapping](#commercial--open-source-mapping)
-* [Reverse Logistics Lifecycle](#reverse-logistics-lifecycle)
-* [Reference Architecture](#reference-architecture)
-* [Returns Management Architecture](#returns-management-architecture)
-* [RMA Workflow](#rma-workflow)
-* [Warehouse Returns Processing](#warehouse-returns-processing)
-* [Inspection & Grading](#inspection--grading)
-* [Disposition Decision Engine](#disposition-decision-engine)
-* [Recommerce Architecture](#recommerce-architecture)
-* [Repair & Warranty Architecture](#repair--warranty-architecture)
-* [Multi-Location Architecture](#multi-location-architecture)
-* [Event-Driven Architecture](#event-driven-architecture)
-* [Recommended Open-Source Stacks](#recommended-open-source-stacks)
-* [Capability Matrix](#capability-matrix)
-* [What Open Source Can Replace](#what-open-source-can-replace)
-* [What Open Source Cannot Replace Automatically](#what-open-source-cannot-replace-automatically)
-* [Best Open-Source Projects](#best-open-source-projects)
-* [Top Open-Source Shortlist](#top-open-source-shortlist)
-* [How to Contribute](#how-to-contribute)
-* [Disclaimer](#disclaimer)
+<p align="center">
+  <strong>An authoritative, SEO-optimized curated directory and architectural blueprint of commercial SaaS Returns Management Systems (RMS), customer return portals, box-free drop-off networks, and modular open-source GitHub projects for Reverse Logistics, RMA Orchestration, AI Inspection &amp; Grading, Warehouse Disposition, Warranty Repair, Recommerce, and Circular Inventory Recovery.</strong>
+</p>
 
 ---
 
-## SaaS/Hosted Platforms
+</div>
+
+## 📑 Table of Contents
+
+* [🏢 SaaS & Hosted Commercial Platforms](#-saashosted-commercial-platforms)
+* [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  * [🌟 Master Open-Source Directory (Ranked by Stars)](#-master-open-source-directory-ranked-by-stars)
+  * [🔄 Open-Source RMA & Returns Core](#-open-source-rma--returns-core)
+  * [🏢 Open-Source ERP/OMS Platforms](#-open-source-erproms-platforms)
+  * [📦 Open-Source WMS & Warehouse Platforms](#-open-source-wms--warehouse-platforms)
+  * [🛒 Open-Source E-Commerce with Returns](#-open-source-e-commerce-with-returns)
+  * [🔧 Open-Source Repair & Refurbishment](#-open-source-repair--refurbishment)
+  * [🚚 Open-Source Logistics, Fleet & Shipping](#-open-source-logistics-fleet--shipping)
+  * [⚙️ Open-Source Workflow & Automation](#️-open-source-workflow--automation)
+  * [📊 Open-Source Analytics & Intelligence](#-open-source-analytics--intelligence)
+  * [👁️ Open-Source AI, Vision & Defect Inspection](#️-open-source-ai-vision--defect-inspection)
+  * [🗄️ Open-Source Data & Infrastructure](#️-open-source-data--infrastructure)
+* [🗺️ Commercial → Open-Source Mapping](#️-commercial--open-source-mapping)
+* [🔄 Reverse Logistics Lifecycle](#-reverse-logistics-lifecycle)
+* [🏗️ Reference Architecture](#️-reference-architecture)
+* [📋 RMA Workflow](#-rma-workflow)
+* [🏭 Warehouse Returns Processing](#-warehouse-returns-processing)
+* [🔍 Inspection & Grading](#-inspection--grading)
+* [⚙️ Disposition Decision Engine](#️-disposition-decision-engine)
+* [♻️ Recommerce Architecture](#️-recommerce-architecture)
+* [🔧 Repair & Warranty Architecture](#-repair--warranty-architecture)
+* [🌐 Multi-Location Architecture](#-multi-location-architecture)
+* [📡 Event-Driven Architecture](#-event-driven-architecture)
+* [🛡️ Return Fraud Detection](#️-return-fraud-detection)
+* [👁️ Computer-Vision Inspection](#️-computer-vision-inspection)
+* [📄 OCR for Returns](#-ocr-for-returns)
+* [💡 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
+* [📊 Capability Matrix](#-capability-matrix)
+* [❓ What Open Source Can & Cannot Replace](#-what-open-source-can--cannot-replace)
+* [🏆 Best Open-Source Shortlist](#-best-open-source-shortlist)
+* [🤝 How to Contribute](#-how-to-contribute)
+* [⚠️ Disclaimer](#️-disclaimer)
+* [📈 Star History](#-star-history)
+
+---
+
+## 🏢 SaaS & Hosted Commercial Platforms
 
 > 📊 **Market Size & Industry Landscape**: The global reverse logistics and returns management market is estimated at **$700B–$900B+** in total freight and product recovery value, with the specialized Returns Management System (RMS) software sector projected to expand from **~$2.5B to over $7.8B by 2030** at an 11.8% CAGR. The sector is **highly fragmented** rather than concentrated (not a winner-take-all market), characterized by a diverse ecosystem of specialized customer return portals, physical box-free drop-off networks, warehouse inspection/grading systems, 3PL reverse logistics providers, and recommerce liquidation engines where no single platform dominates the end-to-end global reverse lifecycle.
 
@@ -89,11 +92,195 @@ These systems manage the movement of products from customers, retailers, distrib
 
 ---
 
-# Open-Source
+## 💻 Open-Source GitHub Projects
 
-## Open-Source RMA & Returns Projects
+Explore the definitive collection of open-source ERPs, Warehouse Management Systems (WMS), Return Merchandise Authorization (RMA) modules, computer vision defect inspection engines, and durable workflow frameworks for self-hosted reverse-logistics infrastructure.
 
-### [OCA RMA](https://github.com/OCA/rma)
+> *Every open-source repository includes a live Star Badge linking directly to its GitHub stargazers page, ranked strictly in descending order by GitHub Star count.*
+
+### 🌟 Master Open-Source Directory (Ranked by Stars)
+
+| Open-Source Project & Repository | Domain & Architecture | Key Reverse Logistics Capabilities |
+| :--- | :--- | :--- |
+| **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **⚙️ Workflow & Integration Automation** | Source-available workflow automation engine for orchestrating RMA webhooks, carrier status polling, and CRM/ERP data pipelines. |
+| **[ollama](https://github.com/ollama/ollama)** [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | **🤖 Local AI & LLM Inference** | Run Llama 3, Mistral, and custom vision/multimodal LLMs locally for automated customer return reason classification and customer triage. |
+| **[transformers](https://github.com/huggingface/transformers)** [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) | **🧠 AI & Machine Learning Framework** | State-of-the-art pretrained transformer models for return sentiment analysis, customer ticket routing, and visual defect categorization. |
+| **[langchain](https://github.com/langchain-ai/langchain)** [![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | **🤖 AI Agent Orchestration** | Framework for building autonomous AI agents capable of querying RMA policies, generating return labels, and handling customer return disputes. |
+| **[pytorch](https://github.com/pytorch/pytorch)** [![Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers) | **🔬 Deep Learning & Computer Vision** | Underlying deep learning framework powering production computer-vision inspection stations, OCR pipelines, and damage severity grading. |
+| **[vllm](https://github.com/vllm-project/vllm)** [![Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) | **⚡ High-Throughput LLM Serving** | High-performance inference engine for real-time customer return classification, policy compliance checks, and automated claims processing. |
+| **[opencv](https://github.com/opencv/opencv)** [![Stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers) | **👁️ Real-Time Computer Vision** | Fundamental computer vision library for camera-based barcode scanning, dimensioning, defect detection, and parcel damage inspection. |
+| **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** [![Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social&color=white)](https://github.com/PaddlePaddle/PaddleOCR/stargazers) | **📄 Multilingual OCR & Text Extraction** | Ultra-lightweight OCR system extracting serial numbers, IMEI barcodes, RMA packing slips, and return tracking slips. |
+| **[grafana](https://github.com/grafana/grafana)** [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | **📊 Observability & Operational Metrics** | Interactive dashboards visualizing real-time reverse logistics telemetry, return rate anomalies, warehouse throughput, and carrier SLA compliance. |
+| **[tesseract](https://github.com/tesseract-ocr/tesseract)** [![Stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers) | **📄 OCR Engine** | Open-source OCR engine for scanning paper RMA documents, printed return labels, and bill of lading (BOL) slips. |
+| **[redis](https://github.com/redis/redis)** [![Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers) | **⚡ In-Memory Caching & State** | Low-latency message broker and cache for return rate-limiting, session tracking, and high-velocity order state locks. |
+| **[superset](https://github.com/apache/superset)** [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | **📈 Enterprise Business Intelligence** | Modern cloud-native data exploration and visualization platform for executive reverse-supply-chain reporting and margin impact analysis. |
+| **[ultralytics](https://github.com/ultralytics/ultralytics)** [![Stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers) | **🎯 YOLO Object & Defect Detection** | YOLOv8/YOLO11 computer vision models for automated item classification, cosmetic damage grading, and packaging tear inspection. |
+| **[minio](https://github.com/minio/minio)** [![Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | **🗄️ High-Performance S3 Object Storage** | Self-hosted S3-compatible storage for high-resolution return parcel inspection images, unboxing video logs, and PDF shipping labels. |
+| **[odoo](https://github.com/odoo/odoo)** [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | **🏢 Full-Stack Modular ERP** | Enterprise ERP suite with reverse transfers, customer returns, warehouse stock adjustments, and native repair order modules. |
+| **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | **🚀 Real-Time Analytical Database** | Fast columnar database processing billions of return telemetry events, carrier transit checkpoints, and SKU disposition logs. |
+| **[metabase](https://github.com/metabase/metabase)** [![Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | **📊 Self-Service Returns Analytics** | Intuitive business intelligence tool enabling supply chain teams to query return trends, defect heatmaps, and supplier chargeback metrics. |
+| **[airflow](https://github.com/apache/airflow)** [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | **🔄 Batch Data Orchestration** | Programmatic workflow scheduler orchestrating nightly batch reconciliation, liquidation inventory feeds, and accounting settlement jobs. |
+| **[erpnext](https://github.com/frappe/erpnext)** [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | **🏭 Open-Source ERP & WMS** | Comprehensive Python/Frappe ERP with sales/purchase returns, warehouse transfer ledgers, serial number tracking, and warranty repairs. |
+| **[medusa](https://github.com/medusajs/medusa)** [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | **🛒 Composable Commerce Engine** | Node.js headless commerce framework with native return requests, return reasons, automated store credit, and exchange mechanics. |
+| **[kafka](https://github.com/apache/kafka)** [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | **📡 Distributed Event Streaming** | Real-time event backbone streaming return creation events, carrier transit milestones, and warehouse disposition signals across microservices. |
+| **[graphql-engine](https://github.com/hasura/graphql-engine)** [![Stars](https://img.shields.io/github/stars/hasura/graphql-engine?style=social&color=white)](https://github.com/hasura/graphql-engine/stargazers) | **⚡ Instant GraphQL on Postgres** | Instant, secure GraphQL and REST APIs over reverse-logistics database models for rapid returns portal and mobile app development. |
+| **[bagisto](https://github.com/bagisto/bagisto)** [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | **🛒 Laravel E-Commerce Platform** | Modular e-commerce platform built on Laravel with dedicated customer RMA submission, return tracking, and inventory credit notes. |
+| **[node-red](https://github.com/node-red/node-red)** [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | **🔌 Low-Code IoT & Hardware Automation** | Flow-based visual tool connecting physical warehouse sensors, scales, barcode scanners, and conveyor diverters during returns receipt. |
+| **[saleor](https://github.com/saleor/saleor)** [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers) | **🛒 Headless GraphQL Commerce** | GraphQL-first headless commerce engine supporting multi-warehouse return fulfillment, refund calculations, and order modifications. |
+| **[temporal](https://github.com/temporalio/temporal)** [![Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | **⏱️ Durable Workflow Execution** | Code-first durable execution engine guaranteeing long-running reverse logistics workflows (multi-week customer return windows, refunds, 3PL handoffs). |
+| **[postgres](https://github.com/postgres/postgres)** [![Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers) | **🗄️ Relational Database Backbone** | The gold standard transactional database for RMA tracking, audit trails, user access control, and inventory stock balances. |
+| **[windmill](https://github.com/windmill-labs/windmill)** [![Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | **🛠️ Developer Platform & Internal Ops** | Fast workflow and internal UI engine for building customer service returns portals, warehouse operator inspection UIs, and refund approvals. |
+| **[postal](https://github.com/postalserver/postal)** [![Stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers) | **📬 Transactional Email Delivery** | Self-hosted email delivery platform for reliable dispatch of return confirmation emails, QR code drop-off vouchers, and refund alerts. |
+| **[cvat](https://github.com/cvat-ai/cvat)** [![Stars](https://img.shields.io/github/stars/cvat-ai/cvat?style=social&color=white)](https://github.com/cvat-ai/cvat/stargazers) | **🏷️ Computer Vision Data Annotation** | High-performance image and video annotation tool for labeling returns defect datasets and training visual inspection neural networks. |
+| **[spree](https://github.com/spree/spree)** [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers) | **🛒 Ruby on Rails Commerce Platform** | Battle-tested headless commerce engine with out-of-the-box return authorizations (RMA), return items, and customer reimbursements. |
+| **[snipe-it](https://github.com/snipe/snipe-it)** [![Stars](https://img.shields.io/github/stars/snipe/snipe-it?style=social&color=white)](https://github.com/snipe/snipe-it/stargazers) | **💻 IT Asset & Hardware Lifecycle** | Web-based asset management tracking IT hardware check-in/out, repair tickets, warranty expiration, and end-of-life disposal/recycling. |
+| **[mail-server](https://github.com/stalwartlabs/mail-server)** [![Stars](https://img.shields.io/github/stars/stalwartlabs/mail-server?style=social&color=white)](https://github.com/stalwartlabs/mail-server/stargazers) | **📧 High-Performance Mail Server** | Rust-based secure mail server ensuring deliverability of automated RMA authorizations, shipping label attachments, and carrier tracking. |
+| **[Open3D](https://github.com/isl-org/Open3D)** [![Stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers) | **📐 3D Data Processing & Volumetrics** | 3D point-cloud and mesh library for robotic carton dimensioning, parcel volumetrics, and 3D defect detection on returned goods. |
+| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | **🔍 Distributed Search & Analytics** | Search and log analytics engine for indexing return reasons, customer complaint text, and real-time reverse logistics telemetry. |
+| **[frappe](https://github.com/frappe/frappe)** [![Stars](https://img.shields.io/github/stars/frappe/frappe?style=social&color=white)](https://github.com/frappe/frappe/stargazers) | **🛠️ Full-Stack Web App Framework** | Low-code Python/JS framework behind ERPNext, ideal for building custom return portal interfaces and internal inspection workflows. |
+| **[woocommerce](https://github.com/woocommerce/woocommerce)** [![Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers) | **🛒 WordPress Commerce Platform** | Ubiquitous commerce engine with extensive ecosystem extensions for customer return requests, warranty tracking, and store credit refunds. |
+| **[Sylius](https://github.com/Sylius/Sylius)** [![Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers) | **🛒 Symfony Modular Commerce** | Modern PHP e-commerce framework with customizable order state machines, return authorization flows, and multi-channel inventory. |
+| **[traccar](https://github.com/traccar/traccar)** [![Stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers) | **🚚 Open-Source GPS Fleet Tracking** | Real-time GPS tracking system for monitoring dedicated reverse logistics collection vans, drop-off shuttles, and inter-facility freight transfers. |
+| **[dolibarr](https://github.com/Dolibarr/dolibarr)** [![Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers) | **🏢 All-In-One Business Suite** | Open-source ERP/CRM with inventory tracking, shipment returns, credit memo generation, and supplier return management. |
+| **[InvenTree](https://github.com/inventree/InvenTree)** [![Stars](https://img.shields.io/github/stars/inventree/InvenTree?style=social&color=white)](https://github.com/inventree/InvenTree/stargazers) | **📦 Open-Source Inventory & Parts** | Lightweight Python/Django inventory and component tracking system with stock batching, repair build orders, and supplier return orders. |
+| **[opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)** [![Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers) | **📡 Telemetry & Distributed Tracing** | Vendor-agnostic telemetry agent capturing end-to-end traces across distributed return portal, OMS, WMS, and carrier API microservices. |
+| **[kserve](https://github.com/kserve/kserve)** [![Stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers) | **🚀 Cloud-Native Model Serving** | Kubernetes-native serving system deploying computer-vision defect inspection and OCR models with autoscaling in returns facilities. |
+| **[PartKeepr](https://github.com/partkeepr/PartKeepr)** [![Stars](https://img.shields.io/github/stars/partkeepr/PartKeepr?style=social&color=white)](https://github.com/partkeepr/PartKeepr/stargazers) | **🔧 Electronic Component Management** | Specialized inventory management system for tracking electronic components, spare parts, repair assemblies, and modular hardware returns. |
+| **[ofbiz-framework](https://github.com/apache/ofbiz-framework)** [![Stars](https://img.shields.io/github/stars/apache/ofbiz-framework?style=social&color=white)](https://github.com/apache/ofbiz-framework/stargazers) | **🏢 Enterprise Commerce & ERP Suite** | Comprehensive Java-based ERP, OMS, and WMS suite featuring formal RMA processing, warehouse returns routing, and supplier credit accounting. |
+| **[openboxes](https://github.com/openboxes/openboxes)** [![Stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers) | **🏥 Healthcare & Supply Chain WMS** | Supply chain and inventory system with native returns receiving, QA quarantine, lot-level tracking, and disposition classifications. |
+| **[org.openwms](https://github.com/openwms/org.openwms)** [![Stars](https://img.shields.io/github/stars/openwms/org.openwms?style=social&color=white)](https://github.com/openwms/org.openwms/stargazers) | **📦 Microservice Warehouse Management** | Spring Boot microservice WMS managing automated conveyor systems, high-bay storage, transport orders, and inbound returns triage. |
+| **[tryton](https://github.com/tryton/tryton)** [![Stars](https://img.shields.io/github/stars/tryton/tryton?style=social&color=white)](https://github.com/tryton/tryton/stargazers) | **🏢 Modular ERP Framework** | High-integrity modular business application platform with sales and purchase returns, stock lot tracking, and multi-company accounting. |
+| **[rma](https://github.com/OCA/rma)** [![Stars](https://img.shields.io/github/stars/OCA/rma?style=social&color=white)](https://github.com/OCA/rma/stargazers) | **🔄 Odoo Return Merchandise Authorization** | Community-maintained RMA module suite for Odoo adding return authorizations, warranty claims, lot verification, and repair routing. |
+
+---
+
+
+### 🔄 Open-Source RMA & Returns Core
+
+### [Odoo Community](https://github.com/odoo/odoo) [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
+
+Open-source ERP and business application platform.
+
+Odoo supports reverse transfers for returned products and provides repair workflows for returned/damaged products.
+
+Capabilities relevant to reverse logistics:
+
+* Returns
+* Reverse transfers
+* Inventory
+* Warehousing
+* Repairs
+* Quality
+* Sales
+* Purchase
+* Accounting
+* Manufacturing
+* Lots and serial numbers
+* Customer management
+
+For a dedicated RMA layer, combine Odoo with **[OCA RMA](https://github.com/OCA/rma)**.
+
+---
+
+### [ERPNext](https://github.com/frappe/erpnext) [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
+
+Open-source ERP platform with sales and purchase returns, inventory, warehouses, accounting and stock workflows.
+
+Useful capabilities include:
+
+* Sales returns
+* Purchase returns
+* Return receipts
+* Inventory adjustments
+* Stock ledger
+* Warehouses
+* Serial numbers
+* Batch numbers
+* Quality control
+* Accounting
+* CRM
+* Customer management
+* Supplier returns
+* Repair workflows
+* Manufacturing
+
+ERPNext can serve as the transactional backbone of a custom reverse-logistics platform.
+
+---
+
+### [Snipe-IT](https://github.com/snipe/snipe-it) [![Stars](https://img.shields.io/github/stars/snipe/snipe-it?style=social&color=white)](https://github.com/snipe/snipe-it/stargazers)
+
+Open-source IT asset management and reverse lifecycle tracking platform.
+
+Capabilities relevant to reverse logistics:
+
+* Hardware check-in, check-out, and return intake
+* Warranty expiration alerts and supplier RMA tracking
+* Asset condition audit trails (Ready to Deploy, Pending, Broken, Archived)
+* Barcode/QR code label printing for returns tagging
+* Component breakdown and scrap/disposal logging
+* REST API for ERP/ITSM integration
+
+---
+
+### [InvenTree](https://github.com/inventree/InvenTree) [![Stars](https://img.shields.io/github/stars/inventree/InvenTree?style=social&color=white)](https://github.com/inventree/InvenTree/stargazers)
+
+Open-source Python/Django inventory and parts management system with stock tracking, batching, and repair workflows.
+
+Useful for:
+
+* Serialized parts tracking and lot management
+* Return order processing (customer and supplier returns)
+* Repair build orders and replacement part allocation
+* Multi-level BOM tracking for refurbished assemblies
+* Supplier warranty and purchase order returns
+* Integrated barcode scanning interface
+
+
+### [Apache OFBiz](https://github.com/apache/ofbiz-framework) [![Stars](https://img.shields.io/github/stars/apache/ofbiz-framework?style=social&color=white)](https://github.com/apache/ofbiz-framework/stargazers)
+
+Apache OFBiz is an open-source ERP/eCommerce/SCM framework that can provide:
+
+* eCommerce
+* Order management
+* Inventory
+* Warehouse management
+* Fulfillment
+* CRM
+* Accounting
+* Supply chain management
+* Manufacturing
+
+OFBiz's eCommerce environment includes customer return functionality and its flexible architecture makes it suitable for custom reverse-logistics applications.
+
+**License:** Apache-2.0
+
+---
+
+### [OpenBoxes](https://github.com/openboxes/openboxes) [![Stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)
+
+Open-source inventory and supply-chain management platform.
+
+Although originally developed for healthcare supply chains, OpenBoxes has evolved into a general-purpose WMS and inventory platform.
+
+Important reverse-logistics capabilities include:
+
+* Returned-stock processing
+* Return reasons
+* Inspection
+* Restocking
+* Disposal
+* Inventory movement
+* Lot tracking
+* Warehouse management
+* Stock transfers
+* Shipment tracking
+
+**License:** EPL-1.0
+
+---
+
+### [OCA RMA](https://github.com/OCA/rma) [![Stars](https://img.shields.io/github/stars/OCA/rma?style=social&color=white)](https://github.com/OCA/rma/stargazers)
 
 **Odoo Community Association — Return Merchandise Authorization**
 
@@ -132,127 +319,14 @@ Odoo ERP
 
 ---
 
-### [ERPNext](https://github.com/frappe/erpnext)
-
-Open-source ERP platform with sales and purchase returns, inventory, warehouses, accounting and stock workflows.
-
-Useful capabilities include:
-
-* Sales returns
-* Purchase returns
-* Return receipts
-* Inventory adjustments
-* Stock ledger
-* Warehouses
-* Serial numbers
-* Batch numbers
-* Quality control
-* Accounting
-* CRM
-* Customer management
-* Supplier returns
-* Repair workflows
-* Manufacturing
-
-ERPNext can serve as the transactional backbone of a custom reverse-logistics platform.
 
 ---
 
-### [Odoo Community](https://github.com/odoo/odoo)
-
-Open-source ERP and business application platform.
-
-Odoo supports reverse transfers for returned products and provides repair workflows for returned/damaged products.
-
-Capabilities relevant to reverse logistics:
-
-* Returns
-* Reverse transfers
-* Inventory
-* Warehousing
-* Repairs
-* Quality
-* Sales
-* Purchase
-* Accounting
-* Manufacturing
-* Lots and serial numbers
-* Customer management
-
-For a dedicated RMA layer, combine Odoo with **[OCA RMA](https://github.com/OCA/rma)**.
-
----
-
-### [OpenBoxes](https://github.com/openboxes/openboxes)
-
-Open-source inventory and supply-chain management platform.
-
-Although originally developed for healthcare supply chains, OpenBoxes has evolved into a general-purpose WMS and inventory platform.
-
-Important reverse-logistics capabilities include:
-
-* Returned-stock processing
-* Return reasons
-* Inspection
-* Restocking
-* Disposal
-* Inventory movement
-* Lot tracking
-* Warehouse management
-* Stock transfers
-* Shipment tracking
-
-**License:** EPL-1.0
-
----
-
-### [Apache OFBiz](https://github.com/apache/ofbiz-framework)
-
-Apache OFBiz is an open-source ERP/eCommerce/SCM framework that can provide:
-
-* eCommerce
-* Order management
-* Inventory
-* Warehouse management
-* Fulfillment
-* CRM
-* Accounting
-* Supply chain management
-* Manufacturing
-
-OFBiz's eCommerce environment includes customer return functionality and its flexible architecture makes it suitable for custom reverse-logistics applications.
-
-**License:** Apache-2.0
-
----
-
-# Open-Source ERP/OMS Platforms
+### 🏢 Open-Source ERP/OMS Platforms
 
 A reverse-logistics platform often needs an **ERP/OMS system of record**.
 
-### [ERPNext](https://github.com/frappe/erpnext)
-
-Best all-around open-source ERP foundation.
-
-```text
-Orders
-+
-Inventory
-+
-Returns
-+
-Accounting
-+
-Warehouse
-+
-Customers
-+
-Suppliers
-```
-
----
-
-### [Odoo](https://github.com/odoo/odoo)
+### [Odoo](https://github.com/odoo/odoo) [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
 
 Strong modular ERP foundation with:
 
@@ -274,7 +348,53 @@ Accounting
 
 ---
 
-### [Apache OFBiz](https://github.com/apache/ofbiz-framework)
+### [ERPNext](https://github.com/frappe/erpnext) [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
+
+Best all-around open-source ERP foundation.
+
+```text
+Orders
++
+Inventory
++
+Returns
++
+Accounting
++
+Warehouse
++
+Customers
++
+Suppliers
+```
+
+---
+
+### [ERPNext + Frappe Framework](https://github.com/frappe/frappe) [![Stars](https://img.shields.io/github/stars/frappe/frappe?style=social&color=white)](https://github.com/frappe/frappe/stargazers)
+
+Useful when the reverse-logistics application requires significant custom business workflows.
+
+---
+
+### [Dolibarr](https://github.com/Dolibarr/dolibarr) [![Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)
+
+Open-source ERP/CRM platform useful for:
+
+* Products
+* Orders
+* Stock
+* Warehouses
+* Customers
+* Suppliers
+* Shipments
+* Invoices
+* Services
+
+Useful as a lightweight foundation for smaller reverse-logistics operations.
+
+---
+
+### [Apache OFBiz](https://github.com/apache/ofbiz-framework) [![Stars](https://img.shields.io/github/stars/apache/ofbiz-framework?style=social&color=white)](https://github.com/apache/ofbiz-framework/stargazers)
 
 Strong developer-oriented ERP/OMS/eCommerce foundation.
 
@@ -294,25 +414,7 @@ Fulfillment
 
 ---
 
-### [Dolibarr](https://github.com/Dolibarr/dolibarr)
-
-Open-source ERP/CRM platform useful for:
-
-* Products
-* Orders
-* Stock
-* Warehouses
-* Customers
-* Suppliers
-* Shipments
-* Invoices
-* Services
-
-Useful as a lightweight foundation for smaller reverse-logistics operations.
-
----
-
-### [Tryton](https://github.com/tryton/tryton)
+### [Tryton](https://github.com/tryton/tryton) [![Stars](https://img.shields.io/github/stars/tryton/tryton?style=social&color=white)](https://github.com/tryton/tryton/stargazers)
 
 Open-source modular ERP platform.
 
@@ -328,15 +430,41 @@ Useful for:
 
 ---
 
-### [ERPNext + Frappe Framework](https://github.com/frappe/frappe)
+### 📦 Open-Source WMS & Warehouse Platforms
 
-Useful when the reverse-logistics application requires significant custom business workflows.
+## [Apache OFBiz](https://github.com/apache/ofbiz-framework) [![Stars](https://img.shields.io/github/stars/apache/ofbiz-framework?style=social&color=white)](https://github.com/apache/ofbiz-framework/stargazers)
+
+Useful where WMS functionality needs to be combined with:
+
+```text
+ERP
++
+OMS
++
+eCommerce
++
+Accounting
+```
 
 ---
 
-# Open-Source WMS & Warehouse Platforms
+## [OpenBoxes](https://github.com/openboxes/openboxes) [![Stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)
 
-## [OpenWMS.org](https://github.com/openwms/org.openwms)
+Strong open-source WMS foundation with explicit return-processing workflows.
+
+```text
+Receive
+   ↓
+Inspect
+   ↓
+Classify
+   ↓
+Restock / Dispose
+```
+
+---
+
+## [OpenWMS.org](https://github.com/openwms/org.openwms) [![Stars](https://img.shields.io/github/stars/openwms/org.openwms?style=social&color=white)](https://github.com/openwms/org.openwms/stargazers)
 
 Open-source Warehouse Management System with a modern microservice architecture.
 
@@ -357,23 +485,7 @@ Particularly valuable for high-volume reverse-logistics warehouses.
 
 ---
 
-## [OpenBoxes](https://github.com/openboxes/openboxes)
-
-Strong open-source WMS foundation with explicit return-processing workflows.
-
-```text
-Receive
-   ↓
-Inspect
-   ↓
-Classify
-   ↓
-Restock / Dispose
-```
-
----
-
-## [OpenWMS.org](https://github.com/openwms/org.openwms)
+## [OpenWMS.org](https://github.com/openwms/org.openwms) [![Stars](https://img.shields.io/github/stars/openwms/org.openwms?style=social&color=white)](https://github.com/openwms/org.openwms/stargazers)
 
 Best suited for:
 
@@ -389,59 +501,9 @@ WCS/WMS Integration
 
 ---
 
-## [Apache OFBiz](https://github.com/apache/ofbiz-framework)
+### 🛒 Open-Source E-Commerce with Returns
 
-Useful where WMS functionality needs to be combined with:
-
-```text
-ERP
-+
-OMS
-+
-eCommerce
-+
-Accounting
-```
-
----
-
-# Open-Source E-Commerce Platforms with Returns
-
-## [Saleor](https://github.com/saleor/saleor)
-
-Open-source headless commerce platform with multi-channel, multi-warehouse and returns functionality.
-
-Useful for:
-
-* Customer returns
-* Refunds
-* Exchanges
-* Multi-warehouse inventory
-* GraphQL APIs
-* Webhooks
-* Order management
-
----
-
-## [Sylius](https://github.com/Sylius/Sylius)
-
-Open-source eCommerce framework built on Symfony.
-
-Useful for:
-
-* Orders
-* Inventory
-* Returns
-* Multi-store
-* Multi-source inventory
-* API integrations
-* Custom commerce workflows
-
-For more advanced returns features, evaluate the relevant Sylius modules/editions separately.
-
----
-
-## [Medusa](https://github.com/medusajs/medusa)
+## [Medusa](https://github.com/medusajs/medusa) [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)
 
 Open-source composable commerce platform.
 
@@ -461,7 +523,7 @@ Useful for building a custom returns portal or reverse-logistics application.
 
 ---
 
-## [Bagisto](https://github.com/bagisto/bagisto)
+## [Bagisto](https://github.com/bagisto/bagisto) [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)
 
 Open-source Laravel-based eCommerce platform.
 
@@ -479,7 +541,23 @@ Recent Bagisto API development includes RMA-related APIs and return workflows.
 
 ---
 
-## [Spree Commerce](https://github.com/spree/spree)
+## [Saleor](https://github.com/saleor/saleor) [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)
+
+Open-source headless commerce platform with multi-channel, multi-warehouse and returns functionality.
+
+Useful for:
+
+* Customer returns
+* Refunds
+* Exchanges
+* Multi-warehouse inventory
+* GraphQL APIs
+* Webhooks
+* Order management
+
+---
+
+## [Spree Commerce](https://github.com/spree/spree) [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)
 
 Open-source Ruby on Rails commerce platform.
 
@@ -495,7 +573,7 @@ Useful for:
 
 ---
 
-## [WooCommerce](https://github.com/woocommerce/woocommerce)
+## [WooCommerce](https://github.com/woocommerce/woocommerce) [![Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers)
 
 Open-source commerce platform for WordPress.
 
@@ -509,7 +587,25 @@ Returns and RMA functionality can be implemented using:
 
 ---
 
-# Open-Source Repair & Refurbishment
+## [Sylius](https://github.com/Sylius/Sylius) [![Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers)
+
+Open-source eCommerce framework built on Symfony.
+
+Useful for:
+
+* Orders
+* Inventory
+* Returns
+* Multi-store
+* Multi-source inventory
+* API integrations
+* Custom commerce workflows
+
+For more advanced returns features, evaluate the relevant Sylius modules/editions separately.
+
+---
+
+### 🔧 Open-Source Repair & Refurbishment
 
 Reverse logistics often continues after receiving:
 
@@ -525,13 +621,13 @@ Refurbishment
 Resale
 ```
 
-## [Odoo Repairs](https://github.com/odoo/odoo)
+## [Odoo Repairs](https://github.com/odoo/odoo) [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
 
 Odoo provides repair workflows that can be connected to returned products.
 
 ---
 
-## [ERPNext](https://github.com/frappe/erpnext)
+## [ERPNext](https://github.com/frappe/erpnext) [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
 
 Useful for:
 
@@ -543,7 +639,25 @@ Useful for:
 
 ---
 
-## [OCA RMA](https://github.com/OCA/rma)
+## [ERPNext Warranty / Serial Management](https://github.com/frappe/erpnext) [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
+
+Useful for electronics, appliances, machinery and other products where:
+
+```text
+Serial Number
++
+Warranty
++
+Repair
++
+Return
+```
+
+must be linked.
+
+---
+
+## [OCA RMA](https://github.com/OCA/rma) [![Stars](https://img.shields.io/github/stars/OCA/rma?style=social&color=white)](https://github.com/OCA/rma/stargazers)
 
 Particularly strong when RMA and repair need to be connected.
 
@@ -563,50 +677,11 @@ Sales RMA
 
 ---
 
-## [ERPNext Warranty / Serial Management](https://github.com/frappe/erpnext)
-
-Useful for electronics, appliances, machinery and other products where:
-
-```text
-Serial Number
-+
-Warranty
-+
-Repair
-+
-Return
-```
-
-must be linked.
-
----
-
-# Open-Source Logistics & Shipping
+### 🚚 Open-Source Logistics, Fleet & Shipping
 
 Reverse logistics requires return-label generation, carrier selection and tracking.
 
-## [OpenBoxes](https://github.com/openboxes/openboxes)
-
-Useful for:
-
-* Shipment tracking
-* Inventory movement
-* Warehouse transfers
-
----
-
-## [Apache OFBiz](https://github.com/apache/ofbiz-framework)
-
-Useful for:
-
-* Fulfillment
-* Shipping
-* Order management
-* Inventory
-
----
-
-## [n8n](https://github.com/n8n-io/n8n)
+## [n8n](https://github.com/n8n-io/n8n) [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 
 Can orchestrate:
 
@@ -626,7 +701,7 @@ Warehouse Receipt
 
 ---
 
-## [Node-RED](https://github.com/node-red/node-red)
+## [Node-RED](https://github.com/node-red/node-red) [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 
 Useful for integrating:
 
@@ -641,9 +716,70 @@ Useful for integrating:
 
 ---
 
-# Open-Source Workflow & Automation
+## [Apache OFBiz](https://github.com/apache/ofbiz-framework) [![Stars](https://img.shields.io/github/stars/apache/ofbiz-framework?style=social&color=white)](https://github.com/apache/ofbiz-framework/stargazers)
 
-## [n8n](https://github.com/n8n-io/n8n)
+Useful for:
+
+* Fulfillment
+* Shipping
+* Order management
+* Inventory
+
+---
+
+## [OpenBoxes](https://github.com/openboxes/openboxes) [![Stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)
+
+Useful for:
+
+* Shipment tracking
+* Inventory movement
+* Warehouse transfers
+
+---
+
+
+---
+
+### [Postal](https://github.com/postalserver/postal) [![Stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers)
+
+High-performance, self-hosted transactional email delivery server.
+
+Useful for:
+
+* Automated dispatch of customer return confirmation emails
+* QR-code drop-off vouchers and return label PDF attachments
+* Real-time return delivery milestone webhook alerts
+* Reliable reverse-logistics customer messaging infrastructure
+
+---
+
+### [Stalwart Mail Server](https://github.com/stalwartlabs/mail-server) [![Stars](https://img.shields.io/github/stars/stalwartlabs/mail-server?style=social&color=white)](https://github.com/stalwartlabs/mail-server/stargazers)
+
+Modern, open-source secure mail server written in Rust with JMAP, IMAP, and SMTP support.
+
+Useful for:
+
+* High-throughput enterprise returns notification dispatch
+* Secure, spam-compliant customer RMA communication
+* Inbound email parsing for automated customer return inquiry creation
+
+---
+
+### [Traccar](https://github.com/traccar/traccar) [![Stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers)
+
+Leading open-source GPS fleet tracking platform.
+
+Useful for:
+
+* Real-time fleet tracking of dedicated reverse logistics collection vans
+* Monitoring return bar drop-off shuttles and consolidation transfers
+* Geofencing distribution hubs and return sorting centers
+* Mileage and route audit trails for circular logistics sustainability metrics
+
+
+### ⚙️ Open-Source Workflow & Automation
+
+## [n8n](https://github.com/n8n-io/n8n) [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 
 One of the strongest open-source workflow engines for building a reverse-logistics integration layer.
 
@@ -673,28 +809,25 @@ Refund / Exchange
 
 ---
 
-## [Node-RED](https://github.com/node-red/node-red)
+## [Apache Airflow](https://github.com/apache/airflow) [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)
+
+Useful for:
+
+* Returns analytics
+* ETL
+* Data warehouse processing
+* Daily reconciliation
+* Recovery reporting
+
+---
+
+## [Node-RED](https://github.com/node-red/node-red) [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 
 Excellent for event-driven warehouse and IoT workflows.
 
 ---
 
-## [Windmill](https://github.com/windmill-labs/windmill)
-
-Open-source developer-oriented workflow and automation platform.
-
-Useful for:
-
-* Scheduled processing
-* API integrations
-* Warehouse jobs
-* ETL
-* Return reconciliation
-* Carrier integrations
-
----
-
-## [Temporal](https://github.com/temporalio/temporal)
+## [Temporal](https://github.com/temporalio/temporal) [![Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 
 Durable workflow orchestration.
 
@@ -716,47 +849,24 @@ Refund
 
 ---
 
-## [Apache Airflow](https://github.com/apache/airflow)
+## [Windmill](https://github.com/windmill-labs/windmill) [![Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
+
+Open-source developer-oriented workflow and automation platform.
 
 Useful for:
 
-* Returns analytics
+* Scheduled processing
+* API integrations
+* Warehouse jobs
 * ETL
-* Data warehouse processing
-* Daily reconciliation
-* Recovery reporting
+* Return reconciliation
+* Carrier integrations
 
 ---
 
-# Open-Source Analytics & Reverse Logistics Intelligence
+### 📊 Open-Source Analytics & Intelligence
 
-## [Metabase](https://github.com/metabase/metabase)
-
-Excellent for:
-
-* Return-rate dashboards
-* SKU return analysis
-* Customer return behavior
-* Warehouse performance
-* Recovery rate
-* Disposition analysis
-* Cost of returns
-
----
-
-## [Apache Superset](https://github.com/apache/superset)
-
-Open-source BI platform for:
-
-* Enterprise returns analytics
-* Multi-location dashboards
-* Carrier performance
-* Return reasons
-* Product performance
-
----
-
-## [Grafana](https://github.com/grafana/grafana)
+## [Grafana](https://github.com/grafana/grafana) [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
 
 Useful for operational dashboards:
 
@@ -771,20 +881,19 @@ Recovery Rate
 
 ---
 
-## [OpenSearch](https://github.com/opensearch-project/OpenSearch)
+## [Apache Superset](https://github.com/apache/superset) [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
 
-Useful for:
+Open-source BI platform for:
 
-* Return-event search
-* Customer return history
-* Fraud analytics
-* Warehouse events
-* Operational search
-* Full-text inspection notes
+* Enterprise returns analytics
+* Multi-location dashboards
+* Carrier performance
+* Return reasons
+* Product performance
 
 ---
 
-## [ClickHouse](https://github.com/ClickHouse/ClickHouse)
+## [ClickHouse](https://github.com/ClickHouse/ClickHouse) [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)
 
 High-performance analytical database for large-scale reverse-logistics data.
 
@@ -799,9 +908,36 @@ Useful for:
 
 ---
 
-# Open-Source AI & Computer Vision
+## [Metabase](https://github.com/metabase/metabase) [![Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
 
-## [Ollama](https://github.com/ollama/ollama)
+Excellent for:
+
+* Return-rate dashboards
+* SKU return analysis
+* Customer return behavior
+* Warehouse performance
+* Recovery rate
+* Disposition analysis
+* Cost of returns
+
+---
+
+## [OpenSearch](https://github.com/opensearch-project/OpenSearch) [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+
+Useful for:
+
+* Return-event search
+* Customer return history
+* Fraud analytics
+* Warehouse events
+* Operational search
+* Full-text inspection notes
+
+---
+
+### 👁️ Open-Source AI, Vision & Defect Inspection
+
+## [Ollama](https://github.com/ollama/ollama) [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
 
 Run LLMs locally for:
 
@@ -814,7 +950,7 @@ Run LLMs locally for:
 
 ---
 
-## [Hugging Face Transformers](https://github.com/huggingface/transformers)
+## [Hugging Face Transformers](https://github.com/huggingface/transformers) [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)
 
 Useful for:
 
@@ -826,7 +962,7 @@ Useful for:
 
 ---
 
-## [PyTorch](https://github.com/pytorch/pytorch)
+## [PyTorch](https://github.com/pytorch/pytorch) [![Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)
 
 Useful for custom:
 
@@ -837,7 +973,7 @@ Useful for custom:
 
 ---
 
-## [OpenCV](https://github.com/opencv/opencv)
+## [OpenCV](https://github.com/opencv/opencv) [![Stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers)
 
 Useful for automated inspection:
 
@@ -853,7 +989,7 @@ Grade
 
 ---
 
-## [Ultralytics](https://github.com/ultralytics/ultralytics)
+## [Ultralytics](https://github.com/ultralytics/ultralytics) [![Stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers)
 
 Useful for computer vision and object detection.
 
@@ -869,7 +1005,7 @@ Check the current Ultralytics license before commercial deployment.
 
 ---
 
-## [Open3D](https://github.com/isl-org/Open3D)
+## [Open3D](https://github.com/isl-org/Open3D) [![Stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)
 
 Useful for:
 
@@ -880,26 +1016,35 @@ Useful for:
 
 ---
 
-# Open-Source Data & Infrastructure
-
-## [PostgreSQL](https://github.com/postgres/postgres)
-
-Primary transactional database for:
-
-```text
-Orders
-RMAs
-Customers
-Returns
-Inventory
-Inspections
-Disposition
-Refunds
-```
 
 ---
 
-## [Redis](https://github.com/redis/redis)
+### [CVAT](https://github.com/cvat-ai/cvat) [![Stars](https://img.shields.io/github/stars/cvat-ai/cvat?style=social&color=white)](https://github.com/cvat-ai/cvat/stargazers)
+
+Interactive computer vision data annotation tool for images and video streams.
+
+Useful for:
+
+* Annotating product scratch, dent, tear, and cosmetic defect datasets
+* Labeling returns packaging condition for custom YOLO model training
+* Quality assurance benchmarks for automated warehouse inspection stations
+
+---
+
+### [KServe](https://github.com/kserve/kserve) [![Stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers)
+
+Standardized, cloud-native model serving platform on Kubernetes.
+
+Useful for:
+
+* Low-latency serving of visual inspection and OCR models at warehouse edge stations
+* Autoscaling inference during peak holiday returns season
+* Canary rollout of new automated disposition scoring models
+
+
+### 🗄️ Open-Source Data & Infrastructure
+
+## [Redis](https://github.com/redis/redis) [![Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
 
 Useful for:
 
@@ -911,25 +1056,7 @@ Useful for:
 
 ---
 
-## [Apache Kafka](https://github.com/apache/kafka)
-
-Event backbone for high-volume returns:
-
-```text
-RMA Event
- ↓
-Kafka
- ├── Analytics
- ├── WMS
- ├── Notifications
- ├── Fraud
- ├── Inventory
- └── Customer Service
-```
-
----
-
-## [MinIO](https://github.com/minio/minio)
+## [MinIO](https://github.com/minio/minio) [![Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers)
 
 Object storage for:
 
@@ -943,7 +1070,7 @@ Check the current MinIO licensing model before selecting it for commercial deplo
 
 ---
 
-## [S3-compatible object storage](https://github.com/minio/minio)
+## [S3-compatible object storage](https://github.com/minio/minio) [![Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers)
 
 Useful for storing:
 
@@ -961,7 +1088,68 @@ Shipping Documents
 
 ---
 
-# Commercial → Open-Source Mapping
+## [Apache Kafka](https://github.com/apache/kafka) [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
+
+Event backbone for high-volume returns:
+
+```text
+RMA Event
+ ↓
+Kafka
+ ├── Analytics
+ ├── WMS
+ ├── Notifications
+ ├── Fraud
+ ├── Inventory
+ └── Customer Service
+```
+
+---
+
+## [PostgreSQL](https://github.com/postgres/postgres) [![Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
+
+Primary transactional database for:
+
+```text
+Orders
+RMAs
+Customers
+Returns
+Inventory
+Inspections
+Disposition
+Refunds
+```
+
+---
+
+
+---
+
+### [Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) [![Stars](https://img.shields.io/github/stars/hasura/graphql-engine?style=social&color=white)](https://github.com/hasura/graphql-engine/stargazers)
+
+Instant, high-performance GraphQL and REST APIs with fine-grained authorization over PostgreSQL.
+
+Useful for:
+
+* Powering branded customer returns portals with real-time RMA queries
+* Mobile returns receiving applications for warehouse floor operators
+* Role-based access control for 3PLs, customer service, and warehouse staff
+
+---
+
+### [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) [![Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
+
+Vendor-agnostic proxy that receives, processes, and exports reverse-logistics telemetry.
+
+Useful for:
+
+* Distributed tracing across return portal, carrier APIs, WMS, and ERP
+* Monitoring latency anomalies in automated refund approval pipelines
+* Unified audit logging for reverse logistics compliance and observability
+
+
+## 🗺️ Commercial → Open-Source Mapping
 
 | Commercial Platform    | Open-Source / Self-Hosted Equivalent                                  |
 | ---------------------- | --------------------------------------------------------------------- |
@@ -984,7 +1172,7 @@ Shipping Documents
 
 ---
 
-# Reverse Logistics Lifecycle
+## 🔄 Reverse Logistics Lifecycle
 
 ```text
 CUSTOMER
@@ -1040,7 +1228,7 @@ ANALYTICS
 
 ---
 
-# Reference Architecture
+## 🏗️ Reference Architecture
 
 ```mermaid
 flowchart TB
@@ -1106,7 +1294,7 @@ DISPOSITION --> ANALYTICS
 
 ---
 
-# Returns Management Architecture
+## 📐 Returns Management Architecture
 
 ```text
                    CUSTOMER
@@ -1146,7 +1334,7 @@ DISPOSITION --> ANALYTICS
 
 ---
 
-# RMA Workflow
+## 📋 RMA Workflow
 
 ```mermaid
 sequenceDiagram
@@ -1181,7 +1369,7 @@ end
 
 ---
 
-# Warehouse Returns Processing
+## 🏭 Warehouse Returns Processing
 
 ```text
 RETURN ARRIVES
@@ -1218,7 +1406,7 @@ Station 8 → Recycling / Disposal
 
 ---
 
-# Inspection & Grading
+## 🔍 Inspection & Grading
 
 A standardized grading model can be:
 
@@ -1250,7 +1438,7 @@ Grade
 
 ---
 
-# Disposition Decision Engine
+## ⚙️ Disposition Decision Engine
 
 The objective is not simply to ask:
 
@@ -1348,7 +1536,7 @@ Handling
 
 ---
 
-# Recommerce Architecture
+## ♻️ Recommerce Architecture
 
 ```mermaid
 flowchart LR
@@ -1379,7 +1567,7 @@ L --> M[Revenue Recovery]
 
 ---
 
-# Repair & Warranty Architecture
+## 🔧 Repair & Warranty Architecture
 
 ```mermaid
 flowchart TD
@@ -1408,7 +1596,7 @@ K -->|No| M[Further Repair / Disposal]
 
 ---
 
-# Multi-Location Architecture
+## 🌐 Multi-Location Architecture
 
 ```text
                      ENTERPRISE
@@ -1437,7 +1625,7 @@ Recycling
 
 ---
 
-# Event-Driven Architecture
+## 📡 Event-Driven Architecture
 
 ```mermaid
 flowchart LR
@@ -1481,7 +1669,7 @@ RECYCLED
 
 ---
 
-# Return Fraud Detection
+## 🛡️ Return Fraud Detection
 
 A modern reverse-logistics platform should detect:
 
@@ -1531,7 +1719,7 @@ Approve / Review / Reject
 
 ---
 
-# AI-Based Return Fraud
+## 🤖 AI-Based Return Fraud
 
 ```text
 Customer
@@ -1555,7 +1743,7 @@ Policy Decision
 
 ---
 
-# Computer-Vision Inspection
+## 👁️ Computer-Vision Inspection
 
 A future-oriented warehouse can use:
 
@@ -1590,7 +1778,7 @@ Open-source building blocks:
 
 ---
 
-# OCR for Returns
+## 📄 OCR for Returns
 
 Useful for reading:
 
@@ -1606,21 +1794,21 @@ RMA Labels
 
 Open-source tools:
 
-### [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+### [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) [![Stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers)
 
 Open-source OCR engine.
 
-### [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+### [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) [![Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social&color=white)](https://github.com/PaddlePaddle/PaddleOCR/stargazers)
 
 OCR and document-understanding framework.
 
-### [OpenCV](https://github.com/opencv/opencv)
+### [OpenCV](https://github.com/opencv/opencv) [![Stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers)
 
 Image preprocessing and computer vision.
 
 ---
 
-# Return Cost Analytics
+## 💰 Return Cost Analytics
 
 A complete platform should calculate:
 
@@ -1660,7 +1848,7 @@ Recovered Value
 
 ---
 
-# Return Recovery Analytics
+## 📈 Return Recovery Analytics
 
 Important metrics:
 
@@ -1686,7 +1874,7 @@ Important metrics:
 
 ---
 
-# Reverse Logistics Dashboard
+## 📊 Reverse Logistics Dashboard
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -1720,7 +1908,7 @@ Important metrics:
 
 ---
 
-# Recommended Open-Source Stacks
+## 💡 Recommended Open-Source Stacks
 
 ## 1. Best Overall Enterprise Reverse Logistics
 
@@ -1948,7 +2136,7 @@ Recovery Optimization
 
 ---
 
-# Capability Matrix
+## 📊 Capability Matrix
 
 | Platform           | RMA | Returns | WMS | Repair | Recommerce | Analytics | Open Source |
 | ------------------ | --: | ------: | --: | -----: | ---------: | --------: | ----------: |
@@ -1984,7 +2172,7 @@ Legend:
 
 ---
 
-# What Open Source Can Replace
+## ✅ What Open Source Can Replace
 
 With sufficient integration and development, open-source software can reproduce much of the operational layer of commercial reverse-logistics systems.
 
@@ -2060,7 +2248,7 @@ SKU Insights
 
 ---
 
-# What Open Source Cannot Replace Automatically
+## ⚠️ What Open Source Cannot Replace Automatically
 
 The biggest limitations are not necessarily software.
 
@@ -2503,7 +2691,7 @@ J --> G
 
 ---
 
-# Best Open-Source Projects
+## 🏆 Best Open-Source Projects
 
 ## Dedicated RMA
 
@@ -2617,7 +2805,7 @@ Useful for self-hosted AI over return data.
 
 ---
 
-# Top Open-Source Shortlist
+## 🥇 Top Open-Source Shortlist
 
 ### Tier 1 — Reverse Logistics Core
 
@@ -3592,7 +3780,7 @@ That shift is what turns a conventional returns process into a genuine **Reverse
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 1. Fork the repository.
 2. Add or update entries in `README.md`.
@@ -3632,7 +3820,7 @@ Contributions are especially welcome for:
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 * This is a **community-curated** list, not an endorsement.
 * Commercial features, pricing, APIs, integrations and licensing models change over time.
@@ -3650,11 +3838,6 @@ Contributions are especially welcome for:
 **Let's make reverse logistics more open, intelligent, recoverable, sustainable, and data-driven.**
 
 
-## Star History
+## 📈 Star History
 
-<a href="https://star-history.com/#ishandutta2007/Awesome-Reverse-Logistics-Platform&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Reverse-Logistics-Platform_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Reverse-Logistics-Platform_growth.svg">
-  </picture>
-</a>
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Reverse-Logistics-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Reverse-Logistics-Platform&type=date&legend=top-left)

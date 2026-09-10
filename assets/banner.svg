@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="50%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#080e1e" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyanGreenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <linearGradient id="purplePinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.08); }
+    }
+    @keyframes flowReverse {
+      0% { stroke-dashoffset: 160; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes floatCard {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes pulseDot {
+      0%, 100% { r: 5; fill-opacity: 0.9; }
+      50% { r: 7.5; fill-opacity: 1; filter: drop-shadow(0 0 6px #10b981); }
+    }
+    .flow-line {
+      stroke-dasharray: 8 8;
+      animation: flowReverse 3s linear infinite;
+    }
+    .flow-line-fast {
+      stroke-dasharray: 6 6;
+      animation: flowReverse 2s linear infinite;
+    }
+    .floating-badge {
+      animation: floatCard 4s ease-in-out infinite;
+    }
+    .floating-badge-alt {
+      animation: floatCard 5s ease-in-out infinite reverse;
+    }
+    .orb-glow {
+      transform-origin: center;
+      animation: pulseOrb 4s ease-in-out infinite;
+    }
+    .pulsing-node {
+      animation: pulseDot 2s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+
+  <!-- Dynamic Glowing Orbs -->
+  <circle cx="180" cy="180" r="160" fill="#06b6d4" opacity="0.15" filter="url(#softGlow)" class="orb-glow" />
+  <circle cx="1020" cy="180" r="170" fill="#10b981" opacity="0.15" filter="url(#softGlow)" class="orb-glow" />
+  <circle cx="600" cy="60" r="140" fill="#8b5cf6" opacity="0.12" filter="url(#softGlow)" class="orb-glow" />
+
+  <!-- Tech Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.25" stroke-width="1">
+    <line x1="0" y1="90" x2="1200" y2="90" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+  </g>
+
+  <!-- Animated Reverse Loop Pipeline -->
+  <g fill="none" stroke-width="2.5">
+    <!-- Outer Reverse Loop Track -->
+    <path d="M 120 280 C 60 280, 60 80, 150 80 L 1050 80 C 1140 80, 1140 280, 1050 280 Z" stroke="#1e293b" stroke-width="4" />
+    <path d="M 120 280 C 60 280, 60 80, 150 80 L 1050 80 C 1140 80, 1140 280, 1050 280 Z" stroke="url(#cyanGreenGrad)" class="flow-line" />
+    
+    <!-- Inner Counter-Flow Wave -->
+    <path d="M 160 240 Q 300 200 450 240 T 750 240 T 1040 240" stroke="url(#purplePinkGrad)" class="flow-line-fast" opacity="0.7" />
+  </g>
+
+  <!-- Center Title & Typography -->
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Tagline Badge -->
+    <g class="floating-badge">
+      <rect x="420" y="38" width="360" height="28" rx="14" fill="#0f172a" stroke="#06b6d4" stroke-width="1.2" />
+      <circle cx="438" cy="52" r="4" fill="#10b981" />
+      <text x="600" y="57" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="2">ENTERPRISE REVERSE LOGISTICS &amp; RMS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="125" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="1.5">
+      AWESOME REVERSE LOGISTICS
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="600" y="160" font-size="16" font-weight="500" fill="#94a3b8" letter-spacing="0.8">
+      Returns Management System (RMS) • Automated RMA • AI Inspection &amp; Grading • Recommerce
+    </text>
+  </g>
+
+  <!-- Circular Economy Stages / Interactive Nodes -->
+  <!-- Stage 1: Return Initiation -->
+  <g class="floating-badge">
+    <rect x="90" y="195" width="180" height="64" rx="12" fill="url(#cardGrad)" stroke="#06b6d4" stroke-width="1.5" />
+    <circle cx="115" cy="227" r="14" fill="#06b6d4" fill-opacity="0.2" />
+    <text x="115" y="232" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#06b6d4">📦</text>
+    <text x="140" y="220" font-family="sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Return Intake</text>
+    <text x="140" y="238" font-family="sans-serif" font-size="11" fill="#94a3b8">Portal • RMA • QR Drop</text>
+  </g>
+
+  <!-- Stage 2: Inbound & Logistics -->
+  <g class="floating-badge-alt">
+    <rect x="310" y="195" width="180" height="64" rx="12" fill="url(#cardGrad)" stroke="#6366f1" stroke-width="1.5" />
+    <circle cx="335" cy="227" r="14" fill="#6366f1" fill-opacity="0.2" />
+    <text x="335" y="232" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#818cf8">🚚</text>
+    <text x="360" y="220" font-family="sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Reverse Transit</text>
+    <text x="360" y="238" font-family="sans-serif" font-size="11" fill="#94a3b8">Consolidation • Return Bar</text>
+  </g>
+
+  <!-- Stage 3: AI Inspection & Grading -->
+  <g class="floating-badge">
+    <rect x="530" y="195" width="180" height="64" rx="12" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1.5" />
+    <circle cx="555" cy="227" r="14" fill="#ec4899" fill-opacity="0.2" />
+    <text x="555" y="232" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#f472b6">🔍</text>
+    <text x="580" y="220" font-family="sans-serif" font-size="13" font-weight="700" fill="#f8fafc">AI Inspection</text>
+    <text x="580" y="238" font-family="sans-serif" font-size="11" fill="#94a3b8">Vision Grading • Testing</text>
+  </g>
+
+  <!-- Stage 4: Smart Disposition -->
+  <g class="floating-badge-alt">
+    <rect x="750" y="195" width="180" height="64" rx="12" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1.5" />
+    <circle cx="775" cy="227" r="14" fill="#f59e0b" fill-opacity="0.2" />
+    <text x="775" y="232" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#fbbf24">⚙️</text>
+    <text x="800" y="220" font-family="sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Disposition</text>
+    <text x="800" y="238" font-family="sans-serif" font-size="11" fill="#94a3b8">Rules Engine • Restock</text>
+  </g>
+
+  <!-- Stage 5: Recommerce & Value Recovery -->
+  <g class="floating-badge">
+    <rect x="970" y="195" width="180" height="64" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.5" />
+    <circle cx="995" cy="227" r="14" fill="#10b981" fill-opacity="0.2" />
+    <text x="995" y="232" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#34d399">♻️</text>
+    <text x="1020" y="220" font-family="sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Recommerce</text>
+    <text x="1020" y="238" font-family="sans-serif" font-size="11" fill="#94a3b8">Refurbish • Resale • Recovery</text>
+  </g>
+
+  <!-- Connecting Node Dots -->
+  <circle cx="270" cy="227" r="6" fill="#06b6d4" class="pulsing-node" />
+  <circle cx="490" cy="227" r="6" fill="#6366f1" class="pulsing-node" />
+  <circle cx="710" cy="227" r="6" fill="#ec4899" class="pulsing-node" />
+  <circle cx="930" cy="227" r="6" fill="#10b981" class="pulsing-node" />
+
+  <!-- Bottom Badges / Metrics -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">
+    <rect x="230" y="300" width="160" height="24" rx="6" fill="#0f172a" stroke="#334155" />
+    <text x="310" y="316" fill="#38bdf8">⚡ 25+ SaaS RMS Ranked</text>
+
+    <rect x="410" y="300" width="180" height="24" rx="6" fill="#0f172a" stroke="#334155" />
+    <text x="500" y="316" fill="#a78bfa">⭐ 45+ Open-Source Repos</text>
+
+    <rect x="610" y="300" width="170" height="24" rx="6" fill="#0f172a" stroke="#334155" />
+    <text x="695" y="316" fill="#34d399">♻️ 100% Circular Recovery</text>
+
+    <rect x="800" y="300" width="170" height="24" rx="6" fill="#0f172a" stroke="#334155" />
+    <text x="885" y="316" fill="#fbbf24">🌐 Composable Stack</text>
+  </g>
+</svg>
