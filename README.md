@@ -3872,3 +3872,12 @@ Contributions are especially welcome for:
 
 **Let's make reverse logistics more open, intelligent, recoverable, sustainable, and data-driven.**
 
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Reverse-Logistics-Platform&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Reverse-Logistics-Platform_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Reverse-Logistics-Platform_growth.svg">
+  </picture>
+</a>
